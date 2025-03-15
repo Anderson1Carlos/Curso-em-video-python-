@@ -1,0 +1,8 @@
+valor = input('Digite algo: ')
+print(f'Tipo primitivo: {type(valor)}')
+print(f'Númerico: {valor.isnumeric()}')
+print(f'Letras: {valor.isalpha()}')
+print(f'Letras e números: {valor.isalnum()}')
+print(f'Letra Maiúscula: {valor.isupper()}')
+print(f'Letra Minúscula: {valor.islower()}')
+print(f'Composto por espaço: {valor.isspace()}')
